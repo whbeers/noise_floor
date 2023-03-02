@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "noise_floor")(type "KiCad")(uri "${KIPRJMOD}/noise_floor.kicad_sym")(options "")(descr ""))
+)
