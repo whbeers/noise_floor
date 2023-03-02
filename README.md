@@ -33,6 +33,7 @@ The idea and specific bypass circuit is inspired by many manufacturers of utilit
  - Build an IO board that includes a TRS expression pedal input (started this way, but found it hard to fit in a 125B enclosure)
  - Migrate power input protection and indicator LED to IO board
  - Support stereo operation via relays, optoisolators, or a "millenium" switch
+ - Build standardized interface boards (e.g. 2 & 3 potentiometers, some TBD configuration of SPDT or DPDT toggle switches, etc)
 
 ## Versioning
 
