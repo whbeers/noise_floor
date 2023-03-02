@@ -13,6 +13,12 @@ Boards are connected using four-circuit Molex PicoBlade connectors. In retrospec
 
 Current and future pedal designs will be updated to utilize the dual PicoBlade IO connectors instead instead of soldered wires.
 
+Headers are labelled symmetrically from the perspective of the IO board:
+ - **S**1 on IO Board <-> **S**1 on **S**witch Board
+ - **S**2 on IO Board <-> **S**2 on **S**witch Board
+ - **E**1 on IO Board <-> **E**1 on **E**ffect Board
+ - **E**2 on IO Board <-> **E**2 on **E**ffect Board
+
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
