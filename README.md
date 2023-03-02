@@ -6,7 +6,7 @@ The first board is an IO (mono audio) and 9VDC center negative power board desig
 
 The second board simplifies effect bypass via a 3PDT switch adapter.
 
-Boards are connected using four-circuit Molex PicoBlade connectors.
+Boards are connected using four-circuit Molex PicoBlade connectors. Current and future pedal designs will be updated to utilize the dual PicoBlade IO connectors instead instead of soldered wires.
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
