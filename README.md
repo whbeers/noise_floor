@@ -3,10 +3,10 @@
 This is set of interface boards to speed effect pedal development, continuing my efforts to learn PCB design with [KiCAD](https://www.kicad.org/).
 
 ### IO PCB
-The first board is an IO (mono audio) and 9VDC center negative power board designed to fit in a 125B standard enclosure.
+The first board is an IO (mono audio) and 9VDC center negative power board with basic power input protection, designed to fit in a 125B standard enclosure.
 
 ### Switch PCB
-The second board simplifies effect bypass via a 3PDT switch adapter.
+The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
 ### Connectivity
 Boards are connected using four-circuit Molex PicoBlade connectors. In retrospect, a six-circuit connector would have made more sense. That said, I've already purchased a pile of four-circuit headers and cable assemblies, and the current design maintains some degree of backwards compatibility with my existing effect circuits, as well as the PedalPCB Auditorium test platform.
@@ -31,7 +31,6 @@ The idea and specific bypass circuit is inspired by many manufacturers of utilit
 ## Future plans
 
  - Build an IO board that includes a TRS expression pedal input (started this way, but found it hard to fit in a 125B enclosure)
- - Migrate power input protection and indicator LED to IO board
  - Support stereo operation via relays, optoisolators, or a "millenium" switch
  - Build standardized interface boards (e.g. 2 & 3 potentiometers, some TBD configuration of SPDT or DPDT toggle switches, etc)
 
