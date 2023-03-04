@@ -9,15 +9,12 @@ The first board is an IO (mono audio) and 9VDC center negative power board with 
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
 ### Connectivity
-Boards are connected using four-circuit Molex PicoBlade connectors. In retrospect, a six-circuit connector would have made more sense. That said, I've already purchased a pile of four-circuit headers and cable assemblies, and the current design maintains some degree of backwards compatibility with my existing effect circuits, as well as the PedalPCB Auditorium test platform.
-
-Current and future pedal designs will be updated to utilize the dual PicoBlade IO connectors instead instead of soldered wires.
+Boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
 
 Headers are labelled symmetrically from the perspective of the IO board:
  - **S**1 on IO Board <-> **S**1 on **S**witch Board
  - **S**2 on IO Board <-> **S**2 on **S**witch Board
  - **E**1 on IO Board <-> **E**1 on **E**ffect Board
- - **E**2 on IO Board <-> **E**2 on **E**ffect Board
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
