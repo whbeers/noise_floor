@@ -19,11 +19,14 @@ Headers are labelled symmetrically from the perspective of the IO board:
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/NoiseFloor_schematic_v0.03.pdf)
+[Schematic](hardware/NoiseFloor_schematic_v0.04.pdf)
 
 ## Credit
 
 The idea and specific bypass circuit is inspired by many manufacturers of utility PCBs and well-known circuits for 3PDT-based effect bypass, notable [PedalPCB's 3PDT breakout](https://www.pedalpcb.com/product/3pdt/), augmented to suit my needs.
+
+Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
+
 
 ## Future plans
 
@@ -37,7 +40,7 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Noise Floor interface board is v0.03.
+The current version of the Noise Floor interface board is v0.04.
 
 ## Name
 *The name Noise Floor is a reflection of the function of the board (a substrate for pedals and bypass circuit) and security nerdery.*
