@@ -31,3 +31,6 @@ hardware/fp-info-cache
 
 # Autosave files
 hardware/_autosave-*
+
+# Temporary copies split by PCB
+hardware-splitboards/*
