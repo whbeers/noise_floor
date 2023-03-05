@@ -21,10 +21,11 @@ Headers are labelled symmetrically from the perspective of the IO board:
  - **S**2 on IO Board <-> **S**2 on **S**witch Board
  - **E**1 on IO Board <-> **E**1 on **E**ffect Board
 
+
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
-
-[Schematic](hardware/NoiseFloor_schematic_v0.05.pdf)
+![Schematic SVG](schematics/noise_floor-latest.svg)
+[Schematic PDF](schematics/noise_floor-latest.pdf)
 
 ## Credit
 
