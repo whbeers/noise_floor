@@ -46,7 +46,5 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Noise Floor interface board is v0.05.
-
 ## Name
 *The name Noise Floor is a reflection of the function of the board (a substrate for pedals and bypass circuit) and security nerdery.*
