@@ -3,7 +3,12 @@
 This is set of interface boards to speed effect pedal development, continuing my efforts to learn PCB design with [KiCAD](https://www.kicad.org/).
 
 ### IO PCB
-The first board is an IO (mono audio) and 9VDC center negative power board with basic power input protection, designed to fit in a 125B standard enclosure.
+The first board is an audio input and power board, featuring:
+  - Switched DC barrel jack supporting either a 9VDC center negative supply or 9V battery
+  - Mono audio jacks w/ switched input circuit (ring/ground shorted to sleeve on insertion)
+  - Basic power input protection
+
+The IO PCB is designed to fit in a standard 125B enclosure.
 
 ### Switch PCB
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
@@ -19,7 +24,7 @@ Headers are labelled symmetrically from the perspective of the IO board:
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/NoiseFloor_schematic_v0.04.pdf)
+[Schematic](hardware/NoiseFloor_schematic_v0.05.pdf)
 
 ## Credit
 
@@ -40,7 +45,7 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Noise Floor interface board is v0.04.
+The current version of the Noise Floor interface board is v0.05.
 
 ## Name
 *The name Noise Floor is a reflection of the function of the board (a substrate for pedals and bypass circuit) and security nerdery.*
