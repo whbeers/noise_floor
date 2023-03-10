@@ -3,6 +3,8 @@
 project=$(basename $(pwd))
 schematic_file="hardware/${project}.kicad_sch"
 
+mkdir -p schematics
+
 if [[ -f "$schematic_file" ]]; then
   schematic_revision=$(grep '\(rev \"\)' "$schematic_file" | awk -F\" '{print $2}') 
   if [[ -z "$schematic_revision" ]]; then
