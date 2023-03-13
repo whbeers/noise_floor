@@ -1541,7 +1541,7 @@
   (gr_text "${REVISION}" (at 50.05 76.598) (layer "B.SilkS" knockout) (tstamp 337e9ab8-2e35-4489-92fe-64d7fb11b1a3)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "    ${COMMENT1}                                               ${REVISION}    " (at 65.45 44.2) (layer "B.SilkS" knockout) (tstamp b4971101-e3f7-4913-9b1a-e8a7354b9559)
+  (gr_text "    ${COMMENT1}                                  ${REVISION}    " (at 65.45 44.2) (layer "B.SilkS" knockout) (tstamp b4971101-e3f7-4913-9b1a-e8a7354b9559)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text_box "For enclosure ground (when necessary, such as with plastic audio jacks), solder a wire from GND_SW lug to footswitch washer."
