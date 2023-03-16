@@ -6,8 +6,8 @@
 
   (title_block
     (title "Noise Floor Interface Boards")
-    (date "2023-03-10")
-    (rev "v0.1")
+    (date "2023-03-16")
+    (rev "v0.2")
     (comment 1 "github.com/whbeers/noise_floor")
   )
 
