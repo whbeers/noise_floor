@@ -33,6 +33,7 @@ The idea and specific bypass circuit is inspired by many manufacturers of utilit
 
 Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
 
+*I am not affiliated with any of the brands, sites, or products named in this overview.*
 
 ## Future plans
 
