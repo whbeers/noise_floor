@@ -6,8 +6,8 @@
 
   (title_block
     (title "Noise Floor Interface Boards")
-    (date "2023-03-16")
-    (rev "v0.2")
+    (date "2023-03-23")
+    (rev "v0.21")
     (comment 1 "github.com/whbeers/noise_floor")
   )
 
@@ -1418,11 +1418,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0690f403-d612-4679-ada8-b58f4927aacc)
   )
-  (label "BATTERY_POS" (at 85.09 26.67 180) (fields_autoplaced)
+  (label "BATTERY_NEG" (at 85.09 26.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 10ed0d00-baac-484e-8ac9-a6ba9421cf14)
   )
-  (label "BATTERY_NEG" (at 85.09 24.13 180) (fields_autoplaced)
+  (label "BATTERY_POS" (at 85.09 24.13 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 15fdf762-b16b-4431-80b2-57d84134b1a6)
   )
