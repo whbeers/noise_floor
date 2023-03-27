@@ -4156,7 +4156,7 @@
     (start 72.7 103.7) (end 102.1 110.3) (layer "Dwgs.User") (tstamp b7311fea-0aca-4582-9e0c-79fef957db42)
       (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
     (stroke (width 0.2) (type solid))  )
-  (gr_text_box "UX Board TODO\n - test surface SMT assembly of conan lite connectors\n - verify pin ordering of conan lite connectors\n - adapt an existing effect to test interface and clearances\n - switch to square-body pots, increase number of pots [DONE!]\n - add 0R resistors for optionally adjusting pot value/taper [DONE!]\n - expand to include a DPDT switch\n"
+  (gr_text_box "UX Board TODO\n - test surface SMT assembly of conan lite connectors\n - verify pin ordering of conan lite connectors [tentatively DONE]\n - adapt an existing effect to test interface and clearances\n - switch to square-body pots, increase number of pots [DONE!]\n - add 0R resistors for optionally adjusting pot value/taper [DONE!]\n - expand to include a DPDT switch\n"
     (start 72.8 112.5) (end 129 126) (layer "Dwgs.User") (tstamp e2955a54-9bca-4a12-89eb-092df6d7bc1d)
       (effects (font (size 1 1) (thickness 0.25) bold) (justify left top))
     (stroke (width 0.2) (type solid))  )
