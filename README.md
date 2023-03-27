@@ -37,9 +37,9 @@ Thanks as always to the folks on the [freestompboxes.org](https://www.freestompb
 
 Potentiometer, DC barrel jack, and 3PDT toggle switch 3D models courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
 
-SPDT toggle switch 3D model courtest [Stephanie Schwecke](https://grabcad.com/stephanie.schwecke-1).
+SPDT toggle switch 3D model courtesy [Stephanie Schwecke](https://grabcad.com/stephanie.schwecke-1).
 
-Conan Lite footprints adapted from the 51-position footprints available from SnapEDA: [Header](https://www.snapeda.com/parts/10162582-1134151LF/Amphenol%20ICC%20(FCI)/view-part/), [Receptacle](https://www.snapeda.com/parts/10162581-3134151LF/Amphenol%20ICC%20(FCI)/view-part/).([Additional license details](hardware/SnapEDA_Licensing.txt))
+Conan Lite footprints adapted from the 51-position footprints available from SnapEDA: [Header](https://www.snapeda.com/parts/10162582-1134151LF/Amphenol%20ICC%20(FCI)/view-part/), [Receptacle](https://www.snapeda.com/parts/10162581-3134151LF/Amphenol%20ICC%20(FCI)/view-part/).([Additional license details](hardware/SnapEDA_Licensing.txt)). 3D models courtesy Amphenol.
 
 *I am not affiliated with any of the brands, sites, or products named in this overview.*
 
