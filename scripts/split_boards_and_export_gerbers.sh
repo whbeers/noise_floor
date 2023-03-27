@@ -3,6 +3,7 @@
 # CONFIGURATION
 BOARD1_NAME="io"
 BOARD2_NAME="switch"
+BOARD3_NAME="ux"
 
 
 if [[ ! -f `which kikit` ]]; then
@@ -53,7 +54,14 @@ BOARD2_DIR="hardware-$BOARD2_NAME"
 BOARD2_PCBFILE="$BOARD2_DIR/$project-$BOARD2_NAME.kicad_pcb"
 mkdir -p "$BOARD2_DIR"
 pushd $BOARD2_DIR
-kikit separate --source 'rectangle; tlx: 13mm; tly: 53mm; brx: 70mm; bry: 100mm' "../$parent_pcb_file" "../$BOARD2_PCBFILE"
+kikit separate --source 'rectangle; tlx: 13mm; tly: 53mm; brx: 71mm; bry: 82mm' "../$parent_pcb_file" "../$BOARD2_PCBFILE"
 popd
 generate_gerbers $BOARD2_PCBFILE $BOARD2_NAME
 
+BOARD3_DIR="hardware-$BOARD3_NAME"
+BOARD3_PCBFILE="$BOARD3_DIR/$project-$BOARD3_NAME.kicad_pcb"
+mkdir -p "$BOARD3_DIR"
+pushd $BOARD3_DIR
+kikit separate --source 'rectangle; tlx: 13mm; tly: 86mm; brx: 71mm; bry: 141mm' "../$parent_pcb_file" "../$BOARD3_PCBFILE"
+popd
+generate_gerbers $BOARD3_PCBFILE $BOARD3_NAME
