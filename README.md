@@ -14,7 +14,7 @@ The IO PCB is designed to fit in a standard 125B enclosure.
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
 ### UX PCB (experimental)
-The third and newest (experimental) board, intended to connect to an effects board using two 25-pin Amphenol "Conan Lite" board-to-board connectors, providing a standard superset of potentiometers and switches. 
+The third and newest (experimental) board, intended to connect to an effects board using two 25-pin [Amphenol "Conan Lite"](https://www.amphenol-cs.com/product-series/conan-lite-1-00mm.html) board-to-board connectors, providing a standard superset of potentiometers and switches. 
 
 ### Connectivity
 IO and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
@@ -31,9 +31,15 @@ Headers are labelled symmetrically from the perspective of the IO board:
 
 ## Credit
 
-The idea and specific bypass circuit is inspired by many manufacturers of utility PCBs and well-known circuits for 3PDT-based effect bypass, notable [PedalPCB's 3PDT breakout](https://www.pedalpcb.com/product/3pdt/), augmented to suit my needs.
+The original idea and specific bypass circuit is inspired by many manufacturers of utility PCBs and well-known circuits for 3PDT-based effect bypass, notably [PedalPCB's 3PDT breakout](https://www.pedalpcb.com/product/3pdt/), augmented to suit my needs.
 
-Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions!
+Thanks as always to the folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions.
+
+Potentiometer, DC barrel jack, and 3PDT toggle switch 3D models courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
+
+SPDT toggle switch 3D model courtest [Stephanie Schwecke](https://grabcad.com/stephanie.schwecke-1).
+
+Conan Lite footprints adapted from the 51-position footprints available from SnapEDA: [Header](https://www.snapeda.com/parts/10162582-1134151LF/Amphenol%20ICC%20(FCI)/view-part/), [Receptacle](https://www.snapeda.com/parts/10162581-3134151LF/Amphenol%20ICC%20(FCI)/view-part/).([Additional license details](hardware/SnapEDA_Licensing.txt))
 
 *I am not affiliated with any of the brands, sites, or products named in this overview.*
 
