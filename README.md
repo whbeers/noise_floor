@@ -13,14 +13,16 @@ The IO PCB is designed to fit in a standard 125B enclosure.
 ### Switch PCB
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
+### UX PCB (experimental)
+The third and newest (experimental) board, intended to connect to an effects board using 15-pin Amphenol "Conan Lite" board-to-board connectors, providing a standard superset of potentiometers and switches. 
+
 ### Connectivity
-Boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
+IO and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
 
 Headers are labelled symmetrically from the perspective of the IO board:
  - **S**1 on IO Board <-> **S**1 on **S**witch Board
  - **S**2 on IO Board <-> **S**2 on **S**witch Board
  - **E**1 on IO Board <-> **E**1 on **E**ffect Board
-
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
