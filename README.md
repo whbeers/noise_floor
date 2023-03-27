@@ -35,7 +35,7 @@ The original idea and specific bypass circuit is inspired by many manufacturers 
 
 Thanks as always to the folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions.
 
-Potentiometer, DC barrel jack, and 3PDT toggle switch 3D models courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
+Potentiometer and DC barrel jack 3D models courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
 
 SPDT toggle switch 3D model courtesy [Stephanie Schwecke](https://grabcad.com/stephanie.schwecke-1).
 
