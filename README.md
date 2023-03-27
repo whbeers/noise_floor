@@ -14,7 +14,7 @@ The IO PCB is designed to fit in a standard 125B enclosure.
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
 ### UX PCB (experimental)
-The third and newest (experimental) board, intended to connect to an effects board using two 25-pin [Amphenol "Conan Lite"](https://www.amphenol-cs.com/product-series/conan-lite-1-00mm.html) board-to-board connectors, providing a standard superset of potentiometers and switches. 
+The third and newest (experimental) board, intended to connect to an effects board using two 25-position [Amphenol "Conan Lite"](https://www.amphenol-cs.com/product-series/conan-lite-1-00mm.html) board-to-board connectors, providing a standard superset of potentiometers and switches. 
 
 ### Connectivity
 IO and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
