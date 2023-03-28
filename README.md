@@ -16,13 +16,31 @@ The second board simplifies effect bypass via a 3PDT switch adapter with an LED 
 ### UX PCB (experimental)
 The third and newest (experimental) board, intended to connect to an effects board using two 25-position [Amphenol "Conan Lite"](https://www.amphenol-cs.com/product-series/conan-lite-1-00mm.html) board-to-board connectors, providing a standard superset of potentiometers and switches. 
 
-### Connectivity
-IO and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
+The current UX board supports six potentiometers and three SPDT switches. Each potentiometer can also be adjusted using optional parallel resistors (SMD 1206) to  tweak the taper and total resistance.
+
+### Connectivity (cabled)
+IO, Effect, and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
 
 Headers are labelled symmetrically from the perspective of the IO board:
  - **S**1 on IO Board <-> **S**1 on **S**witch Board
  - **S**2 on IO Board <-> **S**2 on **S**witch Board
  - **E**1 on IO Board <-> **E**1 on **E**ffect Board
+
+### Connectivity (board-to-board)
+The effect and UX boards are connected using [Amphenol "Conan Lite"](https://www.amphenol-cs.com/product-series/conan-lite-1-00mm.html) board-to-board connectors. Only a single UX board variety currently exists, supporting a superset of six potentiometers and three SPDT switches. As the UX board is in the experimental/proof-of-concept phase, the pin assignment should be considered preliminary and subject to change.
+
+Current connector allocation:
+ - 6x Potentiometers x 3 (CCW, Wiper, CW) = 18
+ - 3x SPDT switches x 3 (NO, COM, NC) = 9
+ - 4x Reserved for ground
+ - Total used: 31
+ - Remaining for expansion: 19
+ 
+Ideas for expansion:
+ - Allocate connector positions for a single DPDT switch (+3, reusing 3 from an existing SPDT)
+ - Incorporate linear potentiometers into an alternate IO board
+ - Allocate at least 12 positions for "flexible use" (enough to support a 4PDT switch)
+ - Allocate positions to drive (RGB?) LEDs with standardized current-limiting resistors
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
@@ -47,7 +65,6 @@ Conan Lite footprints adapted from the 51-position footprints available from Sna
 
  - Build an IO board that includes a TRS expression pedal input (started this way, but found it hard to fit in a 125B enclosure)
  - Support stereo operation via relays, optoisolators, or a "millenium" switch
- - Build standardized interface boards (e.g. 2 & 3 potentiometers, some TBD configuration of SPDT or DPDT toggle switches, etc)
 
 ## Versioning
 
