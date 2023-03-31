@@ -2,7 +2,7 @@
 
 This is set of interface boards to speed effect pedal development, continuing my efforts to learn PCB design with [KiCAD](https://www.kicad.org/).
 
-### IO and Switch Bbards
+### IO and Switch boards
 The first board is an audio input and power board, featuring:
   - Switched DC barrel jack supporting either a 9VDC center negative supply or 9V battery
   - Mono audio jacks w/ switched input circuit (ring/ground shorted to sleeve on insertion)
