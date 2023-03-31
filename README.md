@@ -12,7 +12,7 @@ The IO PCB is designed to fit in a standard 125B enclosure.
 
 The second board simplifies effect bypass via a 3PDT switch adapter with an LED indicator.
 
-### Connectivity (cabled)
+#### Connectivity (cabled)
 IO, Effect, and Switch boards are connected using four-circuit [Molex PicoBlade](https://www.molex.com/molex/products/family/picoblade?parentKey=wire_to_board_connectors) connectors.
 
 Headers are labelled symmetrically from the perspective of the IO board:
